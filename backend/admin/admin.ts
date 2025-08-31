@@ -10,7 +10,7 @@ import { getAuthData } from "~encore/auth";
 // Endpoint that responds with a hardcoded value.
 // To call it, run in your terminal:
 //
-//	curl --header "Authorization: dummy-token" http://localhost:4000/admin
+//	curl --header "Authorization: dummy-token" http://localhost:5000/admin
 //
 export const getDashboardData = api(
   {
